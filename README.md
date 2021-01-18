@@ -6,13 +6,14 @@ Let me set some of the expectations.  Code should be neat, well documented.  Var
 
 All filenames should be `<lastname>_<firstname>_HW<#>_<optional>.<proper extension>`, except Makefile.
 
-In addition, each file should have a standard header as defined below.  Make sure to put in your section number, your name, your student ID, a proper project name, filename, and description of the project.
+In addition, each file should have a standard header as defined below.  Make sure to put in your section number, your name, your student ID, a proper project name, GitHub name, filename, and description of the project.
 
 ```
 /**************************************************************
 * Class:  CSC-415-0# Fall 2020
 * Name:
 * Student ID:
+* GitHub Name:
 * Project: <project name>, Assignment 1 – Command Line Arguments
 *
 * File: <name of this file>
@@ -59,12 +60,13 @@ FOPTION=_main
 RUNOPTIONS=Hello World
 CC=gcc
 CFLAGS= -g -I.
+# To add libraries, add "-l <libname>", for multiple repeat prior for each lib.
 LIBS =
 DEPS = 
 OBJ = $(ROOTNAME)$(HW)$(FOPTION).o
 
 %.o: %.c $(DEPS)
-	$(CC) -c -o $@ $< $(CFLAGS) $(LIBS)
+	$(CC) -c -o $@ $< $(CFLAGS)
 
 $(ROOTNAME)$(HW)$(FOPTION): $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)  $(LIBS)
