@@ -40,12 +40,13 @@ FOPTION=_main
 RUNOPTIONS=Hello World
 CC=gcc
 CFLAGS= -g -I.
+# To add libraries, add "-l <libname>", for multiple repeat prior for each lib.
 LIBS =
 DEPS = 
 OBJ = $(ROOTNAME)$(HW)$(FOPTION).o
 
 %.o: %.c $(DEPS)
-	$(CC) -c -o $@ $< $(CFLAGS) $(LIBS)
+	$(CC) -c -o $@ $< $(CFLAGS)
 
 $(ROOTNAME)$(HW)$(FOPTION): $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)  $(LIBS)
