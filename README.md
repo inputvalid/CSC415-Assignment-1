@@ -10,11 +10,11 @@ In addition, each file should have a standard header as defined below.  Make sur
 
 ```
 /**************************************************************
-* Class:  CSC-415-0# Fall 2020
+* Class:  CSC-415-0# Fall 2021
 * Name:
 * Student ID:
 * GitHub Name:
-* Project: <project name>, Assignment 1 – Command Line Arguments
+* Project: Assignment 1 – Command Line Arguments
 *
 * File: <name of this file>
 *
@@ -54,10 +54,15 @@ All filenames should be `<lastname>_<firstname>_HW<#>_<optional>.<proper extensi
 ```
 # File: Makefile
 
-ROOTNAME=bierman_robert_HW
+LASTNAME=Bierman
+FIRSTNAME=Robert
 HW=1
-FOPTION=_main
+
 RUNOPTIONS=Hello World
+
+
+ROOTNAME=$(LASTNAME)_$(FIRSTNAME)_HW
+FOPTION=_main
 CC=gcc
 CFLAGS= -g -I.
 # To add libraries, add "-l <libname>", for multiple repeat prior for each lib.
