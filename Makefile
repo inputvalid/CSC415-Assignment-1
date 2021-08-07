@@ -3,6 +3,8 @@
 # Description - This make file should be used for all your projects
 # It should be modified as needed for each homework
 #
+# Set your firstname, lastname, and hw
+#
 # ROOTNAME should be set you your lastname_firstname_HW.  Except for
 # and group projects, this will not change throughout the semester
 #
@@ -33,11 +35,15 @@
 # will delete the executable and any object files in your directory.
 #
 
-
-ROOTNAME=<last>_<first>_HW
+LASTNAME=
+FIRSTNAME=
 HW=1
-FOPTION=_main
+
 RUNOPTIONS=Hello World
+
+
+ROOTNAME=$(LASTNAME)_$(FIRSTNAME)_HW
+FOPTION=_main
 CC=gcc
 CFLAGS= -g -I.
 # To add libraries, add "-l <libname>", for multiple repeat prior for each lib.
