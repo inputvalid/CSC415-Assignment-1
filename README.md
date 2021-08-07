@@ -4,7 +4,7 @@ Welcome to your First homework assignment.
 
 Let me set some of the expectations.  Code should be neat, well documented.  Variables should have meaningful names and be in a consistent format (I do not care if you use camelCase or under_scores in variables but be consistent.  
 
-All filenames should be `<lastname>_<firstname>_HW<#>_<optional>.<proper extension>`, except Makefile.
+All filenames should be `<lastname>_<firstname>_HW<#>_<component>.<proper extension>`, except Makefile.
 
 In addition, each file should have a standard header as defined below.  Make sure to put in your section number, your name, your student ID, a proper project name, GitHub name, filename, and description of the project.
 
@@ -49,7 +49,8 @@ student:~/CSC415$
 
 You should submit your source code file(s), Makefile along with a short writeup in PDF format into your GIT repository and submit the PDF into the assignment in iLearn.  Your write-up should include a description of the project and what you did, issues you had, how you overcame the issues and the compilation and execution output from your program (screen shots embedded in the PDF document. Your execution output should include commands with the command-line arguments.  
 
-All filenames should be `<lastname>_<firstname>_HW<#>_<optional>.<proper extension>`
+All filenames should be `<lastname>_<firstname>_HW<#>_<component>.<proper extension>`
+So my filename would be `Bierman_Robert_HW1_main.c`
 
 ```
 # File: Makefile
