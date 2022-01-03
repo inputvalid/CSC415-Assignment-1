@@ -47,7 +47,7 @@ Argument 08: 	9
 student:~/CSC415$
 ```
 
-You should submit your source code file(s), Makefile along with a short writeup in PDF format into your GIT repository and submit the PDF into the assignment in iLearn.  Your write-up should include a description of the project and what you did, issues you had, how you overcame the issues and the compilation and execution output from your program (screen shots embedded in the PDF document. Your execution output should include commands with the command-line arguments.  
+You should submit your source code file(s), Makefile along with a short writeup (use the provided template) in PDF format into your GIT repository and submit the PDF into the assignment in iLearn.  Your write-up should include a description of the project and what you did, issues you had, how you overcame the issues and the compilation and execution output from your program (screen shots embedded in the PDF document. Your execution output should include commands with the command-line arguments.  
 
 All filenames should be `<lastname>_<firstname>_HW<#>_<component>.<proper extension>`
 So my filename would be `Bierman_Robert_HW1_main.c`
