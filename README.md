@@ -10,7 +10,7 @@ In addition, each file should have a standard header as defined below.  Make sur
 
 ```
 /**************************************************************
-* Class:  CSC-415-0# Fall 2021
+* Class:  CSC-415-0# Spring 2022
 * Name:
 * Student ID:
 * GitHub Name:
